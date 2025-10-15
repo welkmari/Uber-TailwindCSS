@@ -1,30 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uber - Nunca foi tão fácil viajar!</title>
-    <link rel="stylesheet" href="/styles/output.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/output.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <title>Uber - Nunca foi tao facil viajar!</title>
 </head>
 <body>
-    <header class="w-full bg-black h-20 px-2">
-        <div class="h-20 w-full flex items-center justify-between max-w-7xl mx-auto">
-            <div class="flex items-center">
-            <img src="assets/uberlogo.png" alt="logo" class="w-20 mr-7">
+  <!-- HEADER -->
+  <header class="w-full bg-black h-20 px-2">
+    <div class="h-20 w-full flex items-center justify-between max-w-7xl mx-auto">
+      <div class="flex items-center">
+        <img 
+          src="assets/uberlogo.png" 
+          alt="Logo do uber"
+          class="w-20 mr-7"
+        />
 
-            <nav class="hidden sm:flex items-center gap-5">
-                <a href="#"class="text-white font-medium hover:bg-zinc-900 px-2 py-2 rounded-lg duration-500">Company</a>
-                <a href="#"class="text-white font-medium hover:bg-zinc-900 px-2 py-2 rounded-lg duration-500">Safeety</a>
-                <a href="#"class="text-white font-medium hover:bg-zinc-900 px-2 py-2 rounded-lg duration-500">Help</a>
-            </nav>
-            </div>
+        <nav class="hidden sm:flex items-center gap-5">
+          <a href="#" class="text-white font-medium hover:bg-zinc-900 px-2 py-2 rounded-lg duration-500">Company</a>
+          <a href="#" class="text-white font-medium hover:bg-zinc-900 px-2 py-2 rounded-lg duration-500">Safeety</a>
+          <a href="#" class="text-white font-medium hover:bg-zinc-900 px-2 py-2 rounded-lg duration-500">Help</a>
+        </nav>
+      </div>
 
-            <div class="flex items-center gap-4">
-                <a href="#"class="text-white font-medium">Login</a>
-                <a href="#" class= "font-medium bg-white px-3 py-1 rounded-full">Sing up</a>
-            </div>
+      <div class="flex items-center gap-4">
+        <a href="#" class="text-white font-medium">Login</a>
+        <a href="#" class="font-medium bg-white px-3 py-1 rounded-full">Sign up</a>
+      </div>
+    </div> 
+  </header>
+  <!-- FIM HEADER -->
+
+  <!-- INICIO HERO -->
+  <main class="w-full">
+    <div class="w-full max-w-7xl mx-auto flex">
+  
+      <section class="bg-white max-w-lg w-full md:mx-2 md:my-2">
+        <div class="bg-slate-100 flex w-full items-center justify-between">
+          <section class="flex-1 pt-3 flex flex-col items-center justify-center gap-2">
+             <i class="fa fa-signal" style="font-size: 32px"></i>
+             <span class="text-center font-medium">Faça viagens ou entregas</span>
+             <span class="w-full bg-black h-[1.5px]"></span>
+          </section>
+
+          <section class="flex-1 pt-3 flex flex-col items-center justify-center gap-2">
+             <i class="fa fa-car" style="font-size: 32px"></i>
+             <span class="text-center font-medium">Viajar</span>
+          </section>
+
+          <section class="flex-1 pt-3 flex flex-col items-center justify-center gap-2">
+             <i class="fa fa-key" style="font-size: 32px"></i>
+             <span class="text-center font-medium">Alugue seus carros</span>
+          </section>
         </div>
 
-    </header>
+
+        <div class="flex flex-col gap-5 px-4 my-4">
+          <h1 class="font-bold text-4xl max-w-sm">Assuma o comando e ganhe</h1>
+          <p class="max-w-sm">
+            Dirija na plataforma com a maior rede de usuários ativos.
+          </p>
+
+          <button class="bg-black self-start text-white px-6 py-2 rounded-lg font-medium hover:scale-105 duration-200">
+            Cadastre-se para dirigir
+          </button>
+
+          <a 
+            href="#"
+            class="text-gray-700 mt-7 mb-4 border-b-2 self-start hover:border-gray-700 duration-300"
+          >
+            Saiba mais sobre como dirigir e fazer entregas
+          </a>
+        </div>
+
+
+      </section>
+
+    </div>
+
+  </main>
+
+
 </body>
 </html>
